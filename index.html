@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="ajax.js"></script>
+</head>
+<body>
+    <section>
+        <h2>Add new person</h2>
+        <form id="uj_ember_urlap">
+            <div>
+                <label for="fname">First Name:</label>
+                <input type="text" id="fname" placeholder="fName" required>
+            </div>
+            <div>
+                <label for="lname">Last Name:</label>
+                <input type="text" id="lname" placeholder="lName" required>
+            </div>
+            <div>
+                <label for="company">Company:</label>
+                <input type="text" id="company" placeholder="Company" required>
+            </div>
+            <div>
+                <label for="job">Job Title:</label>
+                <input type="text" id="job" placeholder="Job Title" required>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <table>
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Company</th>
+                <th>Job Title</th>
+                <th>Options</th>
+            </tr>
+        </thead>
+        <tbody id="tablazat">
+
+        </tbody>
+    </table>
+</body>
+</html>
